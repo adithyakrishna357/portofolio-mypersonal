@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Adithyakrishna P | Full Stack Developer</title>
+    <link rel="shortcut icon" href="assets/imgs/logo_1 - Copy.ico" type="image/x-icon">
+    <!--  Toastify-js  -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- animate.css -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" /> -->
+    <link rel="stylesheet" href="assets/css/animate.combat.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar wow fadeInLeft" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo  wow hinge" data-wow-duration="3s" data-wow-delay="2s" href="#">Full Stack Developer</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" style="cursor: pointer;" onclick="scrollToSection('home')">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" style="cursor: pointer;" onclick="scrollToSection('about')">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" style="cursor: pointer;" onclick="scrollToSection('portfolio')">Portfolio</a>
+                </li>
+                <!-- <li class="item">
+                    <a class="link" href="#testmonial">Testmonial</a>
+                </li> -->
+                <li class="item">
+                    <a class="link" style="cursor: pointer;" onclick="scrollToSection('contact')">Contact</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header wow fadeInRight">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Adithyakrishna P</span>
+            </h1>
+            <p class="header-subtitle">FULL STACK DEVELOPER</p>
+
+            <a style="cursor: pointer;" onclick="scrollToSection('portfolio')" target="_blank"><button
+                    class="btn btn-primary">Visit My Works</button></a>
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder wow bounceInLeft">
+                    <img src="assets/imgs/Adhikrishna.webp" class="about-img" alt="portfolio_works">
+                </div>
+                <div class="about-caption wow bounceInRight">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-1">About Me</h2>
+                    <p>
+                        My name is Adithyakrishna P. I'm a FULL stack developer with experience working on several web
+                        applications. I have a strong foundation in <b style="font-weight: 650; color: #000;">AWS,
+                            JavaScript, Node.js, ExpressJS, ReactJS, Redux, Bootstrap, MongoDB and PostgreSQL.</b>
+                        I have extensive experience working as a Full stack developer, with a strong focus on front-end
+                        development using React with Redux state management. Additionally,
+                        I am also very proficient in using various AWS services such as <b
+                            style="color: #000;font-weight: 650;">EC2, ROUTE 53, as well as Nginx and PM2</b> for web server deployment and management.
+                        These tools are essential in ensuring the smooth running of web applications, and my experience
+                        with them has enabled me to efficiently manage and deploy my applications.
+                        Furthermore, I have experience using Cloudinary and Git tools.
+                    </p>
+                    <button class="btn-rounded btn btn-outline-primary" id="download-cv">View Resume</button>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- service section -->
+    <section class="section wow fadeInUp" id="service">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Do ?</p>
+            <h6 class="section-title mb-6">Service</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/webDev.svg" alt="portfolio_works" class="icon">
+                            <h6 class="title">Web Application Development</h6>
+                            <p class="subtitle">Developing scalable and efficient web applications using the FULL stack
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/responsive.svg" alt="portfolio_works" class="icon">
+                            <h6 class="title">Database Management</h6>
+                            <p class="subtitle">Setting up and configuring databases such as MongoDB, MySQL, and
+                                PostgreSQL.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/toolbox.svg" alt="portfolio_works" class="icon">
+                            <h6 class="title">Server Deployment and Maintenance</h6>
+                            <p class="subtitle">Deploying applications on cloud platforms such as AWS and Heroku ...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/analytics.svg" alt="portfolio_works" class="icon">
+                            <h6 class="title">Photoshop Designing and Video Editing</h6>
+                            <p class="subtitle">Designing 3D Cinematic graphics on Best Quality and Cinematic Video Editing</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
+
+    <!-- portfolio section -->
+    <section class="section wow fadeInUp" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Did ?</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row wow fadeInUp">
+                <div class="col-md-4 pb-4">
+                    <a href="https://github.com/adithyakrishna357/MINIYOX" target="_blank" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/Screenshot 2023-12-18 232759.png"
+                            class="img-responsive rounded" alt="MINIYOX miniature App">
+                        <div style="display: flex;height: 9rem;">
+                            <img class="portfolio-card-img"
+                                style="margin-top: 1px;margin-right: 2rem;border: 0.5px solid #000;"
+                                src="assets/imgs/Screenshot 2023-12-18 233122.png" class="img-responsive rounded"
+                                alt="food_delivery_app">
+                            <img class="portfolio-card-img"
+                                style="margin-top: 1px;margin-left: 2rem;border: 0.5px solid #000;"
+                                src="assets/imgs/Screenshot 2023-12-18 233149.png" class="img-responsive rounded"
+                                alt="food_delivery_app">
+                        </div>
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Application</h5>
+                                    <p class="font-weight-normal">Category: Shopping App </p>
+                                    <p>EmbeddedJS, CSS, Axios, Ajax, JQuery, NodeJS, ExpressJS, MongoDB</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4 pb-4">
+                    <a href="https://github.com/adithyakrishna357/React-OLX-Clone" target="_blank" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/olx.jpg"
+                            class="img-responsive rounded" alt="OLX_Clone_app">
+                        <!-- <img class="portfolio-card-img" src="assets/imgs/1693900951341.jpeg"
+                            class="img-responsive rounded" alt="OLX_Clone_app"> -->
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Development</h5>
+                                    <p class="font-weight-normal">Category: OLX App </p>
+                                    <p>UseEffect, UseContext, Usestate in ReactJS and Link, UseNavigate in React-router-dom and react-dom and FireBase Database</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4 pb-4">
+                    <a href="https://github.com/adithyakrishna357/Netflix" target="_blank"
+                        class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/netiflix2.jpg"
+                            class="img-responsive rounded" alt="portfolio_works">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Development</h5>
+                                    <p class="font-weight-normal">Category: Netflix App </p>
+                                    <p>Axios, Hooks - UseEffect, Usestate in ReactJS, React-dom and React-Youtube</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4 pb-4">
+                    <a href="https://github.com/adithyakrishna357/Shopping-Cart" target="_blank" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/shopping cart.jpg"
+                            class="img-responsive rounded" alt="portfolio_works">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Development</h5>
+                                    <p class="font-weight-normal">Category: Computer Shopping App</p>
+                                    <p>npm, HandlebarsJS, Cascading Style Sheets(CSS), NodeJS, JavaScript, ExpressJS</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4 pb-4">
+                    <a href="https://github.com/adithyakrishna357/Dodgeuae_clone" target="_blank"
+                        class="portfolio-card">
+                        <img src="assets/imgs/dodge.jpg" class="portfolio-card-img" alt="portfolio_works">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Category: Dodge UAE  - Static Web Template</p>
+                                    <p>HTML5, CSS</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <!-- <div class="col-md-4 pb-4">
+                    <a href="https://github.com/nijaskhan/Todo-App.git" target="_blank" class="portfolio-card">
+                        <img src="assets/imgs/Todo's app.jpg" class="portfolio-card-img"
+                            alt="portfolio_works">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Development</h5>
+                                    <p class="font-weight-normal">Category: ToDo App using React.Js</p>
+                            </span>
+                        </span>
+                    </a>
+                </div> -->
+                <div class="col-md-4 pb-4">
+                    <a href="https://github.com/adithyakrishna357/GOOGLE_FIT-clone" target="_blank" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/googlefit.jpg" class="img-responsive rounded"
+                            alt="portfolio_works">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Category: Googlefit - Static Web Template</p>
+                                    <p>HTML5, CSS</p>
+                            </span>
+                        </span>
+                    </a>
+                </div><div class="col-md-4 pb-4">
+                    <a href="https://github.com/adithyakrishna357/Todo-App" target="_blank" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/todo.jpg" class="img-responsive rounded"
+                            alt="portfolio_works">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Category: Todo App</p>
+                                    <p>React JS,React-dom</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4 pb-4">
+                    <a href="https://github.com/adithyakrishna357/Job-Getter" target="_blank" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/jobgetter.jpg" class="img-responsive rounded"
+                            alt="portfolio_works">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Category: Job Searching App</p>
+                                    <p>Bootstrap, Cascading Style Sheets(CSS), HTML5, JavaScript</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4 pb-4">
+                    <a href="https://github.com/adithyakrishna357/Suntrixx-Login-form" target="_blank" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/suntrixx.jpg" class="img-responsive rounded"
+                            alt="portfolio_works">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Brand Marketing App</p>
+                                    <p>Handlebars(Hbs), CSS, Bootstrap, JavaScript</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+    <!-- section -->
+    <section class="section-sm bg-primary wow fadeInUp">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0 wow bounceInLeft">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3 wow bounceInRight">
+                    <a style="cursor: pointer;" onclick="scrollToSection('contact')"><button
+                            class="btn btn-lg my-font btn-light rounded">Hire Me</button></a>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center wow fadeInUp">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <a href="https://wa.me/+917510877899" target="_blank">
+                Send me a WhatsApp Message
+            </a>
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://github.com/adithyakrishna357" target="_blank" class="link"><i class="ti-github"></i></a>
+                <a href="https://www.linkedin.com/in/adithyakrishna-p-5a82a8250/" target="_blank" class="link"><i
+                        class="ti-linkedin"></i></a>
+                <a href="https://www.facebook.com/adhi.krishna.9889?mibextid=vk8aRt" target="_blank" class="link"><i
+                        class="ti-facebook"></i></a>
+                <a href="https://www.instagram.com/adhikrishna._?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="link"><i
+                        class="ti-instagram"></i></a>
+                <a href="https://x.com/Adithyakri85698?t=arfCKCK71jaRctxaOsgNLA&s=09" target="_blank" class="link"><i
+                        class="ti-twitter-alt"></i></a>
+            </div>
+        </footer>
+    </div>
+    <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JQuery validation plugin -->
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+
+    
+
+    <!-- scroll down to sections -->
+    <script>
+        function scrollToSection(section) {
+            var section = document.getElementById(section);
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+
+    <!-- Toastify-js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Downloading of Resume -->
+    <script>
+        const button = document.getElementById("download-cv");
+        button.addEventListener("click", () => {
+            window.open("https://drive.google.com/file/d/18oEFrsRMqVumA_CE_w1PmCIP6oxWQPTi/view?usp=sharing", "_blank");
+        });
+    </script>
+
+    <!-- wow js -->
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        var wow = new WOW(
+            {
+                animateClass: 'animated',
+                offset: 100
+            }
+        );
+        wow.init();
+    </script>
+
+</body>
+
+</html>
